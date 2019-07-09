@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D3B74F822D422B400A937F1 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B74F722D422B400A937F1 /* SecondView.swift */; };
+		8D3B74FA22D423B200A937F1 /* SecondViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B74F922D423B200A937F1 /* SecondViewModel.swift */; };
+		8D3B74FC22D425F000A937F1 /* SecondViewDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B74FB22D425F000A937F1 /* SecondViewDetailView.swift */; };
+		8D8D292F22D1276900FBE05E /* ContentViewNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D292E22D1276900FBE05E /* ContentViewNavigation.swift */; };
+		8D8D293322D1280300FBE05E /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D8D293222D1280300FBE05E /* Hike.swift */; };
+		8DDB6CDB22D3B81900EA3547 /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB6CDA22D3B81900EA3547 /* MyView.swift */; };
+		8DDB6CDD22D3BA2400EA3547 /* MyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB6CDC22D3BA2400EA3547 /* MyViewModel.swift */; };
+		8DDB6CDF22D3D53D00EA3547 /* MyDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DDB6CDE22D3D53D00EA3547 /* MyDetailView.swift */; };
 		8DF3AB2122C9BA1900B42163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF3AB2022C9BA1900B42163 /* AppDelegate.swift */; };
 		8DF3AB2322C9BA1900B42163 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF3AB2222C9BA1900B42163 /* SceneDelegate.swift */; };
 		8DF3AB2522C9BA1900B42163 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF3AB2422C9BA1900B42163 /* ContentView.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D3B74F722D422B400A937F1 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		8D3B74F922D423B200A937F1 /* SecondViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewModel.swift; sourceTree = "<group>"; };
+		8D3B74FB22D425F000A937F1 /* SecondViewDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewDetailView.swift; sourceTree = "<group>"; };
+		8D8D292E22D1276900FBE05E /* ContentViewNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewNavigation.swift; sourceTree = "<group>"; };
+		8D8D293222D1280300FBE05E /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		8DDB6CDA22D3B81900EA3547 /* MyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		8DDB6CDC22D3BA2400EA3547 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
+		8DDB6CDE22D3D53D00EA3547 /* MyDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDetailView.swift; sourceTree = "<group>"; };
 		8DF3AB1D22C9BA1900B42163 /* Udemy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Udemy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DF3AB2022C9BA1900B42163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8DF3AB2222C9BA1900B42163 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +53,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8D3B74F522D4229800A937F1 /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				8D3B74F722D422B400A937F1 /* SecondView.swift */,
+				8D3B74FB22D425F000A937F1 /* SecondViewDetailView.swift */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		8D3B74F622D422A400A937F1 /* SeconModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D3B74F922D423B200A937F1 /* SecondViewModel.swift */,
+			);
+			path = SeconModel;
+			sourceTree = "<group>";
+		};
+		8D8D293422D141EE00FBE05E /* UdemyView */ = {
+			isa = PBXGroup;
+			children = (
+				8D8D292E22D1276900FBE05E /* ContentViewNavigation.swift */,
+				8DF3AB2422C9BA1900B42163 /* ContentView.swift */,
+			);
+			path = UdemyView;
+			sourceTree = "<group>";
+		};
+		8D8D293522D1420500FBE05E /* UdemyModel */ = {
+			isa = PBXGroup;
+			children = (
+				8D8D293222D1280300FBE05E /* Hike.swift */,
+			);
+			path = UdemyModel;
+			sourceTree = "<group>";
+		};
+		8DDB6CD822D3B80000EA3547 /* MyView */ = {
+			isa = PBXGroup;
+			children = (
+				8DDB6CDA22D3B81900EA3547 /* MyView.swift */,
+				8DDB6CDE22D3D53D00EA3547 /* MyDetailView.swift */,
+			);
+			path = MyView;
+			sourceTree = "<group>";
+		};
+		8DDB6CD922D3B80800EA3547 /* MyModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DDB6CDC22D3BA2400EA3547 /* MyViewModel.swift */,
+			);
+			path = MyModel;
+			sourceTree = "<group>";
+		};
 		8DF3AB1422C9BA1900B42163 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +123,14 @@
 		8DF3AB1F22C9BA1900B42163 /* Udemy */ = {
 			isa = PBXGroup;
 			children = (
+				8D3B74F522D4229800A937F1 /* SecondView */,
+				8D3B74F622D422A400A937F1 /* SeconModel */,
+				8DDB6CD822D3B80000EA3547 /* MyView */,
+				8DDB6CD922D3B80800EA3547 /* MyModel */,
+				8D8D293422D141EE00FBE05E /* UdemyView */,
+				8D8D293522D1420500FBE05E /* UdemyModel */,
 				8DF3AB2022C9BA1900B42163 /* AppDelegate.swift */,
 				8DF3AB2222C9BA1900B42163 /* SceneDelegate.swift */,
-				8DF3AB2422C9BA1900B42163 /* ContentView.swift */,
 				8DF3AB2622C9BA1B00B42163 /* Assets.xcassets */,
 				8DF3AB2B22C9BA1B00B42163 /* LaunchScreen.storyboard */,
 				8DF3AB2E22C9BA1B00B42163 /* Info.plist */,
@@ -146,8 +218,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DDB6CDB22D3B81900EA3547 /* MyView.swift in Sources */,
+				8DDB6CDF22D3D53D00EA3547 /* MyDetailView.swift in Sources */,
+				8D8D293322D1280300FBE05E /* Hike.swift in Sources */,
+				8D3B74F822D422B400A937F1 /* SecondView.swift in Sources */,
+				8D8D292F22D1276900FBE05E /* ContentViewNavigation.swift in Sources */,
 				8DF3AB2122C9BA1900B42163 /* AppDelegate.swift in Sources */,
+				8D3B74FC22D425F000A937F1 /* SecondViewDetailView.swift in Sources */,
 				8DF3AB2322C9BA1900B42163 /* SceneDelegate.swift in Sources */,
+				8DDB6CDD22D3BA2400EA3547 /* MyViewModel.swift in Sources */,
+				8D3B74FA22D423B200A937F1 /* SecondViewModel.swift in Sources */,
 				8DF3AB2522C9BA1900B42163 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,7 +15,6 @@ struct ContentView : View {
             Image("image")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
-//                .clipShape(Circle())
                 .cornerRadius(8)
                 .padding()
             
