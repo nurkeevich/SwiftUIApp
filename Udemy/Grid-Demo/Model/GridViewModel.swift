@@ -22,7 +22,10 @@ extension GridViewModel {
             GridViewModel(name: "cake", price: 12, image: "cake"),
             GridViewModel(name: "lion", price: 32, image: "lion"),
             GridViewModel(name: "penguin", price: 14, image: "penguin"),
-            GridViewModel(name: "fish", price: 32, image: "fish")
+            GridViewModel(name: "fish", price: 32, image: "fish"),
+            GridViewModel(name: "lion", price: 32, image: "lion"),
+            GridViewModel(name: "penguin", price: 14, image: "penguin"),
+            GridViewModel(name: "cake", price: 12, image: "cake")
         ]
     }
 }

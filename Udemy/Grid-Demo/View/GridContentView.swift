@@ -9,10 +9,27 @@
 import SwiftUI
 
 struct GridContentView : View {
+    
     let images = GridViewModel.all()
     
     var body: some View {
-       Text("Hello World!")
+        
+        let chunkedImages = images.chunked(into: 2)
+        
+        return List {
+//            Row
+            ForEach(0..<chunkedImages.count) { index in
+                HStack {
+//            Column
+                    ForEach(chunkedImages[index]) { eachImage in
+                        Image(eachImage.image)
+                            .resizable()
+                            .scaledToFit()
+                    }
+                }
+            }
+            
+        }
     }
 }
 
