@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8D0C7DC422DA5AFF00692280 /* TextModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C7DC322DA5AFF00692280 /* TextModel.swift */; };
+		8D0C7DC622DA5B2900692280 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C7DC522DA5B2900692280 /* TestView.swift */; };
+		8D0C7DC922DA5FA800692280 /* AddMeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0C7DC822DA5FA800692280 /* AddMeButton.swift */; };
+		8D13E63B22DC2E7D00BF8D0B /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13E63A22DC2E7D00BF8D0B /* DishView.swift */; };
+		8D13E63D22DC2E9600BF8D0B /* DishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D13E63C22DC2E9600BF8D0B /* DishModel.swift */; };
+		8D1AD94222DBB33400635104 /* RemoveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AD94122DBB33400635104 /* RemoveButton.swift */; };
+		8D1AD94422DBB3C400635104 /* RemoveAllButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AD94322DBB3C400635104 /* RemoveAllButton.swift */; };
+		8D1AD94722DBB52200635104 /* AddMeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AD94622DBB52200635104 /* AddMeView.swift */; };
+		8D1AD94922DBB5A000635104 /* AddMeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1AD94822DBB5A000635104 /* AddMeModel.swift */; };
 		8D3B74FF22D42FE500A937F1 /* GridContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B74FE22D42FE500A937F1 /* GridContentView.swift */; };
 		8D3B750422D4390E00A937F1 /* ArrayExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B750322D4390E00A937F1 /* ArrayExtention.swift */; };
 		8D3B750622D439A700A937F1 /* GridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3B750522D439A700A937F1 /* GridViewModel.swift */; };
@@ -27,6 +36,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8D0C7DC322DA5AFF00692280 /* TextModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextModel.swift; sourceTree = "<group>"; };
+		8D0C7DC522DA5B2900692280 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		8D0C7DC822DA5FA800692280 /* AddMeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeButton.swift; sourceTree = "<group>"; };
+		8D13E63A22DC2E7D00BF8D0B /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
+		8D13E63C22DC2E9600BF8D0B /* DishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishModel.swift; sourceTree = "<group>"; };
+		8D1AD94122DBB33400635104 /* RemoveButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveButton.swift; sourceTree = "<group>"; };
+		8D1AD94322DBB3C400635104 /* RemoveAllButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveAllButton.swift; sourceTree = "<group>"; };
+		8D1AD94622DBB52200635104 /* AddMeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeView.swift; sourceTree = "<group>"; };
+		8D1AD94822DBB5A000635104 /* AddMeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMeModel.swift; sourceTree = "<group>"; };
 		8D3B74FE22D42FE500A937F1 /* GridContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridContentView.swift; sourceTree = "<group>"; };
 		8D3B750322D4390E00A937F1 /* ArrayExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtention.swift; sourceTree = "<group>"; };
 		8D3B750522D439A700A937F1 /* GridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridViewModel.swift; sourceTree = "<group>"; };
@@ -71,6 +89,60 @@
 			children = (
 			);
 			path = SecondModel;
+			sourceTree = "<group>";
+		};
+		8D0C7DC222DA5AE600692280 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C7DC722DA5F8400692280 /* Buttons */,
+				8D0C7DC322DA5AFF00692280 /* TextModel.swift */,
+				8D0C7DC522DA5B2900692280 /* TestView.swift */,
+			);
+			path = TestView;
+			sourceTree = "<group>";
+		};
+		8D0C7DC722DA5F8400692280 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				8D0C7DC822DA5FA800692280 /* AddMeButton.swift */,
+				8D1AD94122DBB33400635104 /* RemoveButton.swift */,
+				8D1AD94322DBB3C400635104 /* RemoveAllButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		8D13E63822DC2E4C00BF8D0B /* All */ = {
+			isa = PBXGroup;
+			children = (
+				8D8D293422D141EE00FBE05E /* UdemyView */,
+				8DDB6CD922D3B80800EA3547 /* MyModel */,
+				8DDB6CD822D3B80000EA3547 /* MyView */,
+				8D3B74FD22D42FBA00A937F1 /* Grid-Demo */,
+				8D05A33B22D6C63A00F519D8 /* SecondModel */,
+				8DF5D8E122D7F8DD003C997E /* StateAndBinding */,
+				8D05A33A22D6C63200F519D8 /* SecondView */,
+				8D0C7DC222DA5AE600692280 /* TestView */,
+				8D1AD94522DBB50E00635104 /* AddMe */,
+			);
+			path = All;
+			sourceTree = "<group>";
+		};
+		8D13E63922DC2E7000BF8D0B /* Dish */ = {
+			isa = PBXGroup;
+			children = (
+				8D13E63A22DC2E7D00BF8D0B /* DishView.swift */,
+				8D13E63C22DC2E9600BF8D0B /* DishModel.swift */,
+			);
+			path = Dish;
+			sourceTree = "<group>";
+		};
+		8D1AD94522DBB50E00635104 /* AddMe */ = {
+			isa = PBXGroup;
+			children = (
+				8D1AD94622DBB52200635104 /* AddMeView.swift */,
+				8D1AD94822DBB5A000635104 /* AddMeModel.swift */,
+			);
+			path = AddMe;
 			sourceTree = "<group>";
 		};
 		8D3B74FD22D42FBA00A937F1 /* Grid-Demo */ = {
@@ -160,13 +232,8 @@
 		8DF3AB1F22C9BA1900B42163 /* Udemy */ = {
 			isa = PBXGroup;
 			children = (
-				8DF5D8E122D7F8DD003C997E /* StateAndBinding */,
-				8D05A33A22D6C63200F519D8 /* SecondView */,
-				8D05A33B22D6C63A00F519D8 /* SecondModel */,
-				8D3B74FD22D42FBA00A937F1 /* Grid-Demo */,
-				8DDB6CD822D3B80000EA3547 /* MyView */,
-				8DDB6CD922D3B80800EA3547 /* MyModel */,
-				8D8D293422D141EE00FBE05E /* UdemyView */,
+				8D13E63922DC2E7000BF8D0B /* Dish */,
+				8D13E63822DC2E4C00BF8D0B /* All */,
 				8D8D293522D1420500FBE05E /* UdemyModel */,
 				8DF3AB2022C9BA1900B42163 /* AppDelegate.swift */,
 				8DF3AB2222C9BA1900B42163 /* SceneDelegate.swift */,
@@ -283,20 +350,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D13E63D22DC2E9600BF8D0B /* DishModel.swift in Sources */,
 				8DDB6CDB22D3B81900EA3547 /* MyView.swift in Sources */,
 				8DDB6CDF22D3D53D00EA3547 /* MyDetailView.swift in Sources */,
 				8D3B750622D439A700A937F1 /* GridViewModel.swift in Sources */,
 				8D8D293322D1280300FBE05E /* Hike.swift in Sources */,
+				8D0C7DC622DA5B2900692280 /* TestView.swift in Sources */,
 				8DF5D8E622D7FB8C003C997E /* StateAndBindingListExampleView.swift in Sources */,
 				8D3B750422D4390E00A937F1 /* ArrayExtention.swift in Sources */,
+				8D1AD94422DBB3C400635104 /* RemoveAllButton.swift in Sources */,
+				8D1AD94722DBB52200635104 /* AddMeView.swift in Sources */,
+				8D1AD94922DBB5A000635104 /* AddMeModel.swift in Sources */,
+				8D0C7DC422DA5AFF00692280 /* TextModel.swift in Sources */,
 				8D3B74FF22D42FE500A937F1 /* GridContentView.swift in Sources */,
 				8DF5D8ED22D7FD61003C997E /* Model.swift in Sources */,
 				8D8D292F22D1276900FBE05E /* ContentViewNavigation.swift in Sources */,
+				8D13E63B22DC2E7D00BF8D0B /* DishView.swift in Sources */,
 				8DF5D8E422D7F8FC003C997E /* StateAndBindingView.swift in Sources */,
 				8DF3AB2122C9BA1900B42163 /* AppDelegate.swift in Sources */,
 				8DF3AB2322C9BA1900B42163 /* SceneDelegate.swift in Sources */,
 				8DDB6CDD22D3BA2400EA3547 /* MyViewModel.swift in Sources */,
+				8D0C7DC922DA5FA800692280 /* AddMeButton.swift in Sources */,
 				8DF3AB2522C9BA1900B42163 /* ContentView.swift in Sources */,
+				8D1AD94222DBB33400635104 /* RemoveButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
