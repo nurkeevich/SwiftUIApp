@@ -22,7 +22,7 @@ struct DishView : View {
             
             List {
                 
-                ForEach(dishes) { eachDish in
+                ForEach(isSpicy ? dishes.filter({$0.isSpicy == self.isSpicy}) : dishes) { eachDish in
                     HStack {
                         DishImageView(image: eachDish.image)
                         HStack {
