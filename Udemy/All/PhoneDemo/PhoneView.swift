@@ -18,7 +18,7 @@ struct PhoneView : View {
             ToggleView(isSpicy: $isSpicy)
             ForEach(self.isSpicy ? models.filter({$0.hotOrNot == isSpicy}) : models) { eachModel in
                 HStack {
-                    ImageView(image: eachModel.image)
+                    MagImageView(image: eachModel.image)
                     TextView(text: eachModel.text)
                     Spacer()
                     if(eachModel.hotOrNot) {
@@ -30,7 +30,7 @@ struct PhoneView : View {
     }
 }
 
-struct ImageView: View {
+struct MagImageView: View {
     let image: String
     
     var body: some View {
